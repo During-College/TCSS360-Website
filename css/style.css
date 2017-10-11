@@ -113,6 +113,13 @@ h1 {
 	background-color: black;
 }
 
+#page5 {
+/*	font-family: 'regular';
+	font-size: 14px;
+	color: white;*/
+	background-color: black;
+}
+
 #title {
 	font-family: 'regular';
 	margin-top: 50vh;
@@ -132,6 +139,13 @@ h1 {
 	height: 10vh;
 	color: white;
 	cursor: pointer;
+}
+
+#discordApp {
+	margin-left: 10vw;
+	margin-top: 30px;
+	width: 80vw;
+	height: 500px;
 }
 
 .tracker {
