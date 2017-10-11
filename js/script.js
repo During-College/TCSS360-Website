@@ -82,6 +82,14 @@ $(document).ready(function() {
 		scrollDown(target5);
 	});
 	
+	$('#taskMatrixLink').click(function() {
+		scrollDown(target3);
+	});
+	
+	$('#minutesLink').click(function() {
+		scrollDown(target4);
+	});
+	
 	$('#downButton').hover(mouseIn, mouseOut);
 	
 	// Key Controls
