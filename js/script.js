@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	// The animation that plays at the beginning on the first page
 	function loadTitle() {
 		var title = document.getElementById("title"); 
@@ -11,7 +12,10 @@ $(document).ready(function() {
 		var audio = new Audio('sounds/typing.mp3');
 		audio.play();
 		function frame() {
+			
 			if (currentFrame < delayFrames) {
+				//Scroll to top on refresh
+				window.scrollTo(0,0)
 				var currentString = totalString.substring(0, currentFrame).trim();
 				title.innerHTML = currentString + "|";
 			} else if (currentFrame >= delayFrames && (((currentFrame - delayFrames) % maxFrame) < maxFrame/2)) {
@@ -129,30 +133,38 @@ $(document).ready(function() {
 	var changeTracker = debounce(function() {
 		var midPoint = $(window).scrollTop() + ($(window).height() / 2);
 		if (midPoint > $('#page2').offset().top && midPoint < $('#page3').offset().top) {
+			
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOn.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
 			$('#tracker4').attr("src", "images/trackerOff.png");
 			$('#tracker5').attr("src", "images/trackerOff.png");
 		} else if (midPoint > $('#page3').offset().top && midPoint < $('#page4').offset().top) {
+
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOn.png");
 			$('#tracker4').attr("src", "images/trackerOff.png");
 			$('#tracker5').attr("src", "images/trackerOff.png");
 		} else if (midPoint > $('#page4').offset().top && midPoint < $('#page5').offset().top) {
+
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
 			$('#tracker4').attr("src", "images/trackerOn.png");
 			$('#tracker5').attr("src", "images/trackerOff.png");
 		} else if (midPoint > $('#page5').offset().top) {
+			//Only Load discord once you scroll down to it (was force scrooling on refresh)
+			$('#discordApp').attr("style", "display: all");
+			$('#discordApp').attr("disabled", "enable");
+			
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
 			$('#tracker4').attr("src", "images/trackerOff.png");
 			$('#tracker5').attr("src", "images/trackerOn.png");
 		} else {
+
 			$('#tracker1').attr("src", "images/trackerOn.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
