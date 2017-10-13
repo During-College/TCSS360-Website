@@ -1,9 +1,6 @@
 meeting_10-13-17.txt
 
 Everyone is present and accounted for.
-🍆1
-💦1
-👌1
 1:11 pm: Announcement of agenda: Easter egg, make sure everyone has git, supplies, check-in 0, go over main project: roles, user stories, if we we have time go over requirement document. boop(edited)
 1:13 pm: Now working on git access(edited)
 1:16 pm: discussion of git branches(edited)
