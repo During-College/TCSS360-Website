@@ -99,9 +99,15 @@ h1 {
 	background-color: black;
 }
 
+#taskMatrixLink, #minutesLink {
+	cursor: pointer;
+	color: #AE81FF;
+	text-decoration: underline;
+}
+
 #page2, #page4 {
 	font-family: Consolas, monaco, monospace;
-	font-size: 18px;
+	font-size: 14px;
 	color: white;
 	background-color: #2A2A2A;
 }
