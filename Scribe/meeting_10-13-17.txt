@@ -1,1 +1,41 @@
 meeting_10-13-17.txt
+
+Everyone is present and accounted for.
+🍆1
+💦1
+👌1
+1:11 pm: Announcement of agenda: Easter egg, make sure everyone has git, supplies, check-in 0, go over main project: roles, user stories, if we we have time go over requirement document. boop(edited)
+1:13 pm: Now working on git access(edited)
+1:16 pm: discussion of git branches(edited)
+1:21 pm Easter egg is done. Everyone can pull, commit, and push.(edited)
+1:22 pm: discussion of supplies
+Anh is bringing post-its and markers
+Matthew is bringing paper
+everyone brings laptop
+1:27 pm: Going through checkin 0
+User stories
+1:29 pm: Catching up Chris on what he missed.
+1:30 pm: discussion of a new section on the website
+We must have the deliverables submitted on the website and on canvas
+1:32 pm: Discussion of requirement deliverable
+Individually, come up with three user stories to implement.
+US07, US06, US11,
+The energy consumption calculator : ask the user for the wattage/h
+US02
+Estimate the project cost
+Material estimate might be difficult because it is ambiguous with the amount of materials
+We might lean towards creating a calculator app
+What is energy consumption?
+The consumption of electricity within the project
+selling out = business model
+Not an online service.
+1:49 pm Roles are postponed until we go over prototyping.
+1:52 pm Preference of roles
+Matthew and Anh are GUI
+Chris and Parker are backend
+Tyler is test cases
+1:55 pm: Planning for next meeting.
+Anh will bring a card game for planning next week
+Prototyping should be complete before next meeting on friday
+ANHimalx11 - Today at 2:00 PM
+1:59pm : who is the facilitator: Tyler, Chris is scribe.
