@@ -90,6 +90,12 @@ h1 {
 	border-right: 2px solid #505050;
 }
 
+.centerleft {
+	font-size: 20px;
+	margin-left: 20vw;
+	/*border-right: 25vw;*/
+}
+
 .centerTitle {
 	width: 100vw;
 }
