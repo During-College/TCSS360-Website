@@ -63,6 +63,12 @@ $(document).ready(function() {
 		$('#downButton').css('color', 'white');
 		scrollDown(target2);
 	});
+	$('#title').click(function() {
+		window.open(
+  'EE.txt',
+  '_blank' // <- This is what makes it open in a new window.
+);
+	});
 	
 	$('#tracker1').click(function() {
 		scrollDown(target1);
