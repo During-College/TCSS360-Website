@@ -15,7 +15,6 @@ $(document).ready(function() {
 			
 			if (currentFrame < delayFrames) {
 				//Scroll to top on refresh
-				window.scrollTo(0,0)
 				var currentString = totalString.substring(0, currentFrame).trim();
 				title.innerHTML = currentString + "|";
 			} else if (currentFrame >= delayFrames && (((currentFrame - delayFrames) % maxFrame) < maxFrame/2)) {
