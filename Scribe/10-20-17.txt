@@ -1,0 +1,32 @@
+1:11 Going over what needs to be finished today
+1:13 reviewing paper prototype
+1:14 continuing working on paper prototype(edited)
+added done button
+added buttons to prototype
+1:26:Parker working on unit tests
+1:26 all members arrived
+1:28: walk through prototype to see if something is missing
+needs cancel on "open existing project"
+added cancel
+add when there is nothing
+1:33 discuss how adding when there is noting will work
+let them add boxes when there is an empty one
+1:34 test for negative numbers
+1:35 will the program allow the user to not fill in all of the boxes?(edited)
+1:36 if no price or quantiy is entered what happens?
+1:37 :what happens when a box is left blank?
+program alerts the user that a field is blank when the user presses "done"(edited)
+no "required" fields
+1:40 allow the user to remove a box(edited)
+clears when the last box is removed
+1:43 discuss how to deal with invalid inputs
+1:46 added back button to data screen
+allows user to change data
+1:49 discuss how saving would work
+save popup when the user hits x
+1:56 finished first run of the prototype
+1:58 wrap up meeting
+discuss for what to do for Tuesday and the next meeting
+2:05 meeting over
+Next week facilitator: Matthew
+Next week scribe: Parker
