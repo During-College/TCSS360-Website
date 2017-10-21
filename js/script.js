@@ -81,16 +81,8 @@ $(document).ready(function() {
 		scrollDown(target3);
 	});
 	
-	$('#tracker4').click(function() {
-		scrollDown(target4);
-	});
-	
 	$('#taskMatrixLink').click(function() {
 		scrollDown(target3);
-	});
-	
-	$('#minutesLink').click(function() {
-		scrollDown(target4);
 	});
 	
 	$('#downButton').hover(mouseIn, mouseOut);
@@ -104,8 +96,6 @@ $(document).ready(function() {
 			scrollDown(target2);
 		} else if (e.which == 51) {
 			scrollDown(target3);
-		} else if (e.which == 52) {
-			scrollDown(target4);
 		}
 	});
 	
