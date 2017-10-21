@@ -56,7 +56,6 @@ $(document).ready(function() {
 	var target1 = $('#page1').offset().top;
 	var target2 = $('#page2').offset().top;
 	var target3 = $('#page3').offset().top;
-	var target4 = $('#page4').offset().top;
 	
 	// Adding listeners to the buttons
 	$('#downButton').click(function() {
@@ -135,24 +134,15 @@ $(document).ready(function() {
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOn.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
-			$('#tracker4').attr("src", "images/trackerOff.png");
-		} else if (midPoint > $('#page3').offset().top && midPoint < $('#page4').offset().top) {
+		} else if (midPoint > $('#page3').offset().top) {
 
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOn.png");
-			$('#tracker4').attr("src", "images/trackerOff.png");
-		} else if (midPoint > $('#page4').offset().top) {
-
-			$('#tracker1').attr("src", "images/trackerOff.png");
-			$('#tracker2').attr("src", "images/trackerOff.png");
-			$('#tracker3').attr("src", "images/trackerOff.png");
-			$('#tracker4').attr("src", "images/trackerOn.png");
 		} else {
 			$('#tracker1').attr("src", "images/trackerOn.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
-			$('#tracker4').attr("src", "images/trackerOff.png");
 		}
 	}, 10);
 	
