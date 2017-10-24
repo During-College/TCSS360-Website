@@ -81,7 +81,7 @@ $(document).ready(function() {
 		scrollDown(target3);
 	});
 	
-	$('#taskMatrixLink').click(function() {
+	$('#minutesLink').click(function() {
 		scrollDown(target3);
 	});
 	
