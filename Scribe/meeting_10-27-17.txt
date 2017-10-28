@@ -1,0 +1,9 @@
+1:00 meeting start
+1:00 Requirement Document group check for any errors
+1:12 discuss what programming language and IDE we would use 
+(Gui java possibly window builder and inteliJ)
+1:21 Decided on using Java with InteliJ
+1:25 Start creating Class Organization/Flow chart
+1:30 Decided on some Packages, Classes, and Methods that we could need for the project
+1:59 Got rough idea on the classes needed and how they need to be linked
+2:00 meeting end
