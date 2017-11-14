@@ -122,7 +122,12 @@ h1 {
 	font-family: 'regular';
 	font-size: 14px;
 	color: white;
-	background-color: black;
+	background-color: white;
+}
+
+#page4 {
+	background-color: #2A2A2A;
+	color: white;
 }
 
 #title {
