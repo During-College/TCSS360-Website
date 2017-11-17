@@ -1,18 +1,18 @@
 4:00 today's meet will replace tomorrow's meeting.
 4:00 facilitator: Parker
 4:01 Scribe: Anh
-Currently present: Parker, Tyler, Anh
-Go over reqs for today
-Sequence diagram
-UI diagram
-discussion of checkin-3
-need three user stories sequence
-and GUI diagram
-discussion of JFrame
-Chris arrives
-Matthew arrives
-continuation of GUI diagram
-User stories sequences
-calculate energy, calculate materials
+4:05 Currently present: Parker, Tyler, Anh
+4:06 Go over reqs for today
+4:06 Sequence diagram
+4:06 UI diagram
+4:09 discussion of checkin-3
+4:09 need three user stories sequence
+4:09 and GUI diagram
+4:09 discussion of JFrame
+4:10 Chris arrives
+4:12 Matthew arrives
+4:14 continuation of GUI diagram
+4:37 User stories sequences
+4:44 calculate energy, calculate materials
 5:08 working on doc 2
-meet ends for class
+5:10 meet ends for class
