@@ -30,13 +30,11 @@ $(document).ready(function() {
 	}
 	window.onload = loadTitle();
 
-	var click = new Audio('sounds/click.mp3');
 	var scroll = new Audio('sounds/scroll.mp3');
 	scroll.volume = 0.3;
 	
 	// Makes the window scroll down to the given target
 	function scrollDown(target) {
-		click.play();
 		scroll.play();
 		$('html, body').stop().animate({
 			scrollTop: target
@@ -56,7 +54,6 @@ $(document).ready(function() {
 	var target1 = $('#page1').offset().top;
 	var target2 = $('#page2').offset().top;
 	var target3 = $('#page3').offset().top;
-	var target4 = $('#page4').offset().top;
 	
 	// Adding listeners to the buttons
 	$('#downButton').click(function() {
@@ -82,10 +79,6 @@ $(document).ready(function() {
 		scrollDown(target3);
 	});
 	
-	$('#tracker4').click(function() {
-		scrollDown(target4);
-	});
-	
 	$('#minutesLink').click(function() {
 		scrollDown(target3);
 	});
@@ -101,8 +94,6 @@ $(document).ready(function() {
 			scrollDown(target2);
 		} else if (e.which == 51) {
 			scrollDown(target3);
-		} else if (e.which == 52) {
-			scrollDown(target4);
 		}
 	});
 	
@@ -130,22 +121,14 @@ $(document).ready(function() {
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOn.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
-			$('#tracker4').attr("src", "images/trackerOff.png");
-		} else if (midPoint > $('#page3').offset().top && midPoint < $('#page4').offset().top) {
+		} else if (midPoint > $('#page3').offset().top) {
 			$('#tracker1').attr("src", "images/trackerOff.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOn.png");
-			$('#tracker4').attr("src", "images/trackerOff.png");
-		} else if (midPoint > $('#page4').offset().top) {
-			$('#tracker1').attr("src", "images/trackerOff.png");
-			$('#tracker2').attr("src", "images/trackerOff.png");
-			$('#tracker3').attr("src", "images/trackerOff.png");
-			$('#tracker4').attr("src", "images/trackerOn.png");
 		} else {
 			$('#tracker1').attr("src", "images/trackerOn.png");
 			$('#tracker2').attr("src", "images/trackerOff.png");
 			$('#tracker3').attr("src", "images/trackerOff.png");
-			$('#tracker4').attr("src", "images/trackerOff.png");
 		}
 	}, 10);
 	
